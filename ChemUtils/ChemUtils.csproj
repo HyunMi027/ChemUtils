@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F997F4DB-FF5D-49B3-8B4C-3AD73B225DF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChemUtils</RootNamespace>
+    <AssemblyName>ChemUtils</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro, Version=1.2.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.1.2.0.0\lib\net45\MahApps.Metro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.MahApps, Version=0.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignThemes.MahApps.0.0.4\lib\net45\MaterialDesignThemes.MahApps.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=1.5.0.523, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignThemes.1.5.0.523\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Drawing, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="MrMitch.Loaders, Version=1.1.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MrMitch.Loaders.1.2.0.0\lib\net45\MrMitch.Loaders.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PropertyChanged, Version=1.51.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>packages\PropertyChanged.Fody.1.51.0\lib\dotnet\PropertyChanged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\MahApps.Metro.1.2.0.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Fontawesome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Atom.cs" />
+    <Compile Include="Models\ValueConverters.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Resources\Atoms.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\1-hexadecanol.pdf" />
+    <None Include="Resources\Substancesheets\1-propanol.pdf" />
+    <None Include="Resources\Substancesheets\Acetaldehyde.pdf" />
+    <None Include="Resources\Substancesheets\Acetofenon.pdf" />
+    <None Include="Resources\Substancesheets\Aceton.pdf" />
+    <None Include="Resources\Substancesheets\alizarine.pdf" />
+    <None Include="Resources\Substancesheets\Aluminium poeder niet pyrofoor.pdf" />
+    <None Include="Resources\Substancesheets\Aluminium poeder pyrofoor.pdf" />
+    <None Include="Resources\Substancesheets\Aluminiumchloride.pdf" />
+    <None Include="Resources\Substancesheets\Aluminiumkaliumsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Aluminiumoxide geactiveerd.pdf" />
+    <None Include="Resources\Substancesheets\Aluminiumoxide niet vezelachtig.pdf" />
+    <None Include="Resources\Substancesheets\Aluminiumoxide vezels.pdf" />
+    <None Include="Resources\Substancesheets\Aluminiumsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniak 25 procent.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniak 25-33 procent.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumacetaat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumbicarbonaat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumchloride.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumdiwaterstfosfaat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumijzer%28II%29sulfaat hexahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniummolybdaat tetrahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumnitraat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumoxalaat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumperoxodisulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumthiocyanaat.pdf" />
+    <None Include="Resources\Substancesheets\Ammoniumthiosulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Antimoontrichloride.pdf" />
+    <None Include="Resources\Substancesheets\Ascorbinezuur.pdf" />
+    <None Include="Resources\Substancesheets\Azijnzuur 80-90 procent.pdf" />
+    <None Include="Resources\Substancesheets\Azijnzuur.pdf" />
+    <None Include="Resources\Substancesheets\Bariumcarbonaat.pdf" />
+    <None Include="Resources\Substancesheets\Bariumchloride dihydraat.pdf" />
+    <None Include="Resources\Substancesheets\Bariumchloride.pdf" />
+    <None Include="Resources\Substancesheets\Bariumhydroxide octahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Bariumhydroxide.pdf" />
+    <None Include="Resources\Substancesheets\Bariumnitraat.pdf" />
+    <None Include="Resources\Substancesheets\Bariumperoxide.pdf" />
+    <None Include="Resources\Substancesheets\Bariumsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Bariumsulfiet.pdf" />
+    <None Include="Resources\Substancesheets\Barnsteenzuur.pdf" />
+    <None Include="Resources\Substancesheets\Benzine.pdf" />
+    <None Include="Resources\Substancesheets\Benzo&amp;euml%3bzuur.pdf" />
+    <None Include="Resources\Substancesheets\Boorzuur.pdf" />
+    <None Include="Resources\Substancesheets\Boterzuur.pdf" />
+    <None Include="Resources\Substancesheets\Brandgel.pdf" />
+    <None Include="Resources\Substancesheets\Broomcresolgroen.pdf" />
+    <None Include="Resources\Substancesheets\Broomthymolblauw.pdf" />
+    <None Include="Resources\Substancesheets\Butan-1-ol.pdf" />
+    <None Include="Resources\Substancesheets\Butan-2-ol.pdf" />
+    <None Include="Resources\Substancesheets\Calcium niet pyrofoor.pdf" />
+    <None Include="Resources\Substancesheets\Calciumbromide.pdf" />
+    <None Include="Resources\Substancesheets\Calciumcarbide.pdf" />
+    <None Include="Resources\Substancesheets\Calciumcarbonaat.pdf" />
+    <None Include="Resources\Substancesheets\Calciumchloride dihydraat&amp;nbsp%3b.pdf" />
+    <None Include="Resources\Substancesheets\Calciumchloride.pdf" />
+    <None Include="Resources\Substancesheets\Calciumdiwaterstoffosfaat.pdf" />
+    <None Include="Resources\Substancesheets\Calciumfluoride.pdf" />
+    <None Include="Resources\Substancesheets\Calciumhydroxide.pdf" />
+    <None Include="Resources\Substancesheets\Calciumnitraat.pdf" />
+    <None Include="Resources\Substancesheets\Calciumoxide.pdf" />
+    <None Include="Resources\Substancesheets\Calciumsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Calciumwaterstoffosfaat.pdf" />
+    <None Include="Resources\Substancesheets\Cetylalcohol.pdf" />
+    <None Include="Resources\Substancesheets\Chloroform.pdf" />
+    <None Include="Resources\Substancesheets\Citroenzuur.pdf" />
+    <None Include="Resources\Substancesheets\Cyclohexaan.pdf" />
+    <None Include="Resources\Substancesheets\Dieselolie.pdf" />
+    <None Include="Resources\Substancesheets\Diethylether.pdf" />
+    <None Include="Resources\Substancesheets\EDTA dinatriumethyleendiaminetetraacetaat.pdf" />
+    <None Include="Resources\Substancesheets\Ethaandiol.pdf" />
+    <None Include="Resources\Substancesheets\Ethanol.pdf" />
+    <None Include="Resources\Substancesheets\Ethyleendiaminetetraazijnzuur.pdf" />
+    <None Include="Resources\Substancesheets\Ethyleenglycol.pdf" />
+    <None Include="Resources\Substancesheets\Fehling%27s reagens A.pdf" />
+    <None Include="Resources\Substancesheets\Fehling%27s reagens B.pdf" />
+    <None Include="Resources\Substancesheets\Fenol.pdf" />
+    <None Include="Resources\Substancesheets\Fenolftale&amp;iuml%3bne.pdf" />
+    <None Include="Resources\Substancesheets\Fenolrood.pdf" />
+    <None Include="Resources\Substancesheets\Fluoresce&amp;iuml%3bne tetrabromo-.pdf" />
+    <None Include="Resources\Substancesheets\Fluoresce&amp;iuml%3bne.pdf" />
+    <None Include="Resources\Substancesheets\Fosfor rood.pdf" />
+    <None Include="Resources\Substancesheets\fosfor%28V%29oxide.pdf" />
+    <None Include="Resources\Substancesheets\fructose.pdf" />
+    <None Include="Resources\Substancesheets\Ftaalzuur.pdf" />
+    <None Include="Resources\Substancesheets\ftaalzuuranhydride.pdf" />
+    <None Include="Resources\Substancesheets\fuchsinezuur.pdf" />
+    <None Include="Resources\Substancesheets\glucose.pdf" />
+    <None Include="Resources\Substancesheets\Glycerol.pdf" />
+    <None Include="Resources\Substancesheets\hexaan.pdf" />
+    <None Include="Resources\Substancesheets\Hydrochinon.pdf" />
+    <None Include="Resources\Substancesheets\ijzer poeder.pdf" />
+    <None Include="Resources\Substancesheets\Ijzer vast.pdf" />
+    <None Include="Resources\Substancesheets\ijzer%28II%29chloride.pdf" />
+    <None Include="Resources\Substancesheets\Ijzer%28II%29sulfaat heptahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Ijzer%28II%29sulfide.pdf" />
+    <None Include="Resources\Substancesheets\ijzer%28II, III%29oxide.pdf" />
+    <None Include="Resources\Substancesheets\Ijzer%28III%29chloride hexahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Ijzer%28III%29chloride.pdf" />
+    <None Include="Resources\Substancesheets\ijzer%28III%29nitraat.pdf" />
+    <None Include="Resources\Substancesheets\Ijzer%28III%29oxide.pdf" />
+    <None Include="Resources\Substancesheets\Jodium.pdf" />
+    <None Include="Resources\Substancesheets\kalium.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumacetaat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumbromaat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumbromide.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumcarbonaat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumchloraat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumchloride.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumdiwaterstoffosfaat.pdf" />
+    <None Include="Resources\Substancesheets\kaliumhexacyaanferraat%28II%29 trihydraat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumhexacyanoferraat %28III%29.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumhydroxide.pdf" />
+    <None Include="Resources\Substancesheets\kaliumjodaat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumjodide.pdf" />
+    <None Include="Resources\Substancesheets\kaliumnatriumtartraat tetrahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumnitraat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumpermanganaat.pdf" />
+    <None Include="Resources\Substancesheets\kaliumperoxodisulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Kaliumsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\kaliumthiocyanaat.pdf" />
+    <None Include="Resources\Substancesheets\kaliumwaterstofcarbonaat.pdf" />
+    <None Include="Resources\Substancesheets\Kerosine.pdf" />
+    <None Include="Resources\Substancesheets\kiezelgoer.pdf" />
+    <None Include="Resources\Substancesheets\Kobalt%28II%29chloride hexahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Kobalt%28II%29chloride&amp;nbsp%3b.pdf" />
+    <None Include="Resources\Substancesheets\kobalt%28II%29nitraat hexahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Koolstof %28actieve kool%29.pdf" />
+    <None Include="Resources\Substancesheets\koper%28I%29chloride.pdf" />
+    <None Include="Resources\Substancesheets\koper%28I%29oxide.pdf" />
+    <None Include="Resources\Substancesheets\Koper%28II%29carbonaat.pdf" />
+    <None Include="Resources\Substancesheets\Koper%28II%29chloride.pdf" />
+    <None Include="Resources\Substancesheets\koper%28II%29nitraat hemipentahydraat.pdf" />
+    <None Include="Resources\Substancesheets\koper%28II%29nitraat hexahydraat.pdf" />
+    <None Include="Resources\Substancesheets\koper%28II%29nitraat trihydraat.pdf" />
+    <None Include="Resources\Substancesheets\Koper%28II%29oxide.pdf" />
+    <None Include="Resources\Substancesheets\Koper%28II%29sulfaat pentahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Koper%28II%29sulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Kwik%28II%29chloride.pdf" />
+    <None Include="Resources\Substancesheets\Kwik%28II%29oxide.pdf" />
+    <None Include="Resources\Substancesheets\lithium.pdf" />
+    <None Include="Resources\Substancesheets\lithiumchloride.pdf" />
+    <None Include="Resources\Substancesheets\Magnesium korrels draden.pdf" />
+    <None Include="Resources\Substancesheets\Magnesium poeder pyrofoor.pdf" />
+    <None Include="Resources\Substancesheets\magnesiumcarbonaat.pdf" />
+    <None Include="Resources\Substancesheets\Magnesiumchloride hexahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Magnesiumchloride.pdf" />
+    <None Include="Resources\Substancesheets\magnesiumnitraat.pdf" />
+    <None Include="Resources\Substancesheets\Magnesiumoxide.pdf" />
+    <None Include="Resources\Substancesheets\Magnesiumsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\mangaan vast poeder.pdf" />
+    <None Include="Resources\Substancesheets\Mangaan%28II%29chloride tetrahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Mangaan%28II%29oxide.pdf" />
+    <None Include="Resources\Substancesheets\mangaan%28II%29sulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Mangaan%28IV%29oxide.pdf" />
+    <None Include="Resources\Substancesheets\Methanol.pdf" />
+    <None Include="Resources\Substancesheets\Methyleenblauw.pdf" />
+    <None Include="Resources\Substancesheets\methylgeel.pdf" />
+    <None Include="Resources\Substancesheets\methylisobutylketon.pdf" />
+    <None Include="Resources\Substancesheets\Methyloranje.pdf" />
+    <None Include="Resources\Substancesheets\methylrood.pdf" />
+    <None Include="Resources\Substancesheets\Mierenzuur.pdf" />
+    <None Include="Resources\Substancesheets\mohr%27s zout.pdf" />
+    <None Include="Resources\Substancesheets\naftaleen.pdf" />
+    <None Include="Resources\Substancesheets\naftol.pdf" />
+    <None Include="Resources\Substancesheets\Natrium.pdf" />
+    <None Include="Resources\Substancesheets\natriumacetaat.pdf" />
+    <None Include="Resources\Substancesheets\Natriumbromide.pdf" />
+    <None Include="Resources\Substancesheets\Natriumcarbonaat decahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Natriumcarbonaat.pdf" />
+    <None Include="Resources\Substancesheets\Natriumchloraat.pdf" />
+    <None Include="Resources\Substancesheets\Natriumchloride.pdf" />
+    <None Include="Resources\Substancesheets\natriumdithioniet.pdf" />
+    <None Include="Resources\Substancesheets\natriumdiwaterstoffosfaat monohydraat.pdf" />
+    <None Include="Resources\Substancesheets\natriumdiwaterstoffosfaat.pdf" />
+    <None Include="Resources\Substancesheets\natriumfluoride.pdf" />
+    <None Include="Resources\Substancesheets\natriumformiaat.pdf" />
+    <None Include="Resources\Substancesheets\natriumfosfaat dodecahydraat.pdf" />
+    <None Include="Resources\Substancesheets\natriumfosfaat.pdf" />
+    <None Include="Resources\Substancesheets\natriumhydroxide 0,1M oplossing.pdf" />
+    <None Include="Resources\Substancesheets\Natriumhydroxide 24 procent.pdf" />
+    <None Include="Resources\Substancesheets\Natriumhydroxide 33 procent.pdf" />
+    <None Include="Resources\Substancesheets\Natriumhydroxide 50 procent.pdf" />
+    <None Include="Resources\Substancesheets\Natriumhydroxide vast.pdf" />
+    <None Include="Resources\Substancesheets\Natriumnitraat.pdf" />
+    <None Include="Resources\Substancesheets\Natriumnitriet.pdf" />
+    <None Include="Resources\Substancesheets\Natriumperoxide.pdf" />
+    <None Include="Resources\Substancesheets\natriumpyrosulfiet.pdf" />
+    <None Include="Resources\Substancesheets\natriumsilicaat 2.00.pdf" />
+    <None Include="Resources\Substancesheets\natriumsilicaat 3.27.pdf" />
+    <None Include="Resources\Substancesheets\natriumsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\natriumsulfide nonahydraat.pdf" />
+    <None Include="Resources\Substancesheets\natriumsulfide.pdf" />
+    <None Include="Resources\Substancesheets\Natriumtetraboraat.pdf" />
+    <None Include="Resources\Substancesheets\Natriumthiosulfaat pentahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Natriumthiosulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Natriumwaterstofcarbonaat.pdf" />
+    <None Include="Resources\Substancesheets\natriumwaterstofsulfaat.pdf" />
+    <None Include="Resources\Substancesheets\neutraalrood.pdf" />
+    <None Include="Resources\Substancesheets\Nikkel katalysator droog.pdf" />
+    <None Include="Resources\Substancesheets\Nikkel poeder.pdf" />
+    <None Include="Resources\Substancesheets\Nikkel%28II%29sulfaat.pdf" />
+    <None Include="Resources\Substancesheets\oliezuur.pdf" />
+    <None Include="Resources\Substancesheets\Oxaalzuur dihydraat.pdf" />
+    <None Include="Resources\Substancesheets\paraffine, was.pdf" />
+    <None Include="Resources\Substancesheets\paraffine, zuivere petroleumoli&amp;euml%3bn.pdf" />
+    <None Include="Resources\Substancesheets\pentaan.pdf" />
+    <None Include="Resources\Substancesheets\pentan-1-ol.pdf" />
+    <None Include="Resources\Substancesheets\pentan-2-ol.pdf" />
+    <None Include="Resources\Substancesheets\Petroleum.pdf" />
+    <None Include="Resources\Substancesheets\petroleumether.pdf" />
+    <None Include="Resources\Substancesheets\resorcinol.pdf" />
+    <None Include="Resources\Substancesheets\saccharose.pdf" />
+    <None Include="Resources\Substancesheets\salicylzuur.pdf" />
+    <None Include="Resources\Substancesheets\Salpeterzuur 20-65 procent.pdf" />
+    <None Include="Resources\Substancesheets\Salpeterzuut 70 procent.pdf" />
+    <None Include="Resources\Substancesheets\siliciumdioxide.pdf" />
+    <None Include="Resources\Substancesheets\Tetrabromofluoresce&amp;iuml%3bne.pdf" />
+    <None Include="Resources\Substancesheets\tetrachloorethyleen.pdf" />
+    <None Include="Resources\Substancesheets\thioureum.pdf" />
+    <None Include="Resources\Substancesheets\thymolblauw.pdf" />
+    <None Include="Resources\Substancesheets\thymolftaleine.pdf" />
+    <None Include="Resources\Substancesheets\Tin%28II%29chloride dihydraat.pdf" />
+    <None Include="Resources\Substancesheets\Tin%28IV%29chloride.pdf" />
+    <None Include="Resources\Substancesheets\tin, poeder.pdf" />
+    <None Include="Resources\Substancesheets\tolueen.pdf" />
+    <None Include="Resources\Substancesheets\ureum.pdf" />
+    <None Include="Resources\Substancesheets\Waterstofchloride 0,1M oplossing.pdf" />
+    <None Include="Resources\Substancesheets\Waterstofchloride 10-25 procent.pdf" />
+    <None Include="Resources\Substancesheets\waterstofchloride, 30-34procent.pdf" />
+    <None Include="Resources\Substancesheets\Waterstofperoxide 20-35 procent.pdf" />
+    <None Include="Resources\Substancesheets\Waterstofperoxide 35 procent.pdf" />
+    <None Include="Resources\Substancesheets\Waterstofperoxide 35-50 procent.pdf" />
+    <None Include="Resources\Substancesheets\Waterstofperoxide 50-60 procent.pdf" />
+    <None Include="Resources\Substancesheets\Waterstofperoxide 8-20 procent.pdf" />
+    <None Include="Resources\Substancesheets\White spirit.pdf" />
+    <None Include="Resources\Substancesheets\wijnsteenzuur.pdf" />
+    <None Include="Resources\Substancesheets\Zetmeel oplosbaar.pdf" />
+    <None Include="Resources\Substancesheets\Zetmeel.pdf" />
+    <None Include="Resources\Substancesheets\Zilvernitraat.pdf" />
+    <None Include="Resources\Substancesheets\Zink, poeder, niet pyrofoor.pdf" />
+    <None Include="Resources\Substancesheets\Zink, poeder, waterreactief.pdf" />
+    <None Include="Resources\Substancesheets\Zink, vast.pdf" />
+    <None Include="Resources\Substancesheets\Zinkchloride.pdf" />
+    <None Include="Resources\Substancesheets\Zinknitraat.pdf" />
+    <None Include="Resources\Substancesheets\Zinkoxide.pdf" />
+    <None Include="Resources\Substancesheets\zinksulfaat heptahydraat.pdf" />
+    <None Include="Resources\Substancesheets\Zinksulfaat.pdf" />
+    <None Include="Resources\Substancesheets\Zoutzuur 0,1M oplossing.pdf" />
+    <None Include="Resources\Substancesheets\zoutzuur, 10-25 procent.pdf" />
+    <None Include="Resources\Substancesheets\zoutzuur, 30-34 procent.pdf" />
+    <None Include="Resources\Substancesheets\Zwavel, vast.pdf" />
+    <None Include="Resources\Substancesheets\Zwavelzuur 98 procent.pdf" />
+    <None Include="Resources\Substancesheets\Zwavelzuur meer dan 51 procent.pdf" />
+    <None Include="Resources\Substancesheets\Zwavelzuur.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Fody.1.29.4\build\dotnet\Fody.targets" Condition="Exists('packages\Fody.1.29.4\build\dotnet\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Fody.1.29.4\build\dotnet\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Fody.1.29.4\build\dotnet\Fody.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
