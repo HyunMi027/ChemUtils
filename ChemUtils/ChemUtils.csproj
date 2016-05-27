@@ -138,262 +138,774 @@
     <None Include="Resources\Atoms.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\Substancesheets\1-hexadecanol.pdf" />
-    <None Include="Resources\Substancesheets\1-propanol.pdf" />
-    <None Include="Resources\Substancesheets\Acetaldehyde.pdf" />
-    <None Include="Resources\Substancesheets\Acetofenon.pdf" />
-    <None Include="Resources\Substancesheets\Aceton.pdf" />
-    <None Include="Resources\Substancesheets\alizarine.pdf" />
-    <None Include="Resources\Substancesheets\Aluminium poeder niet pyrofoor.pdf" />
-    <None Include="Resources\Substancesheets\Aluminium poeder pyrofoor.pdf" />
-    <None Include="Resources\Substancesheets\Aluminiumchloride.pdf" />
-    <None Include="Resources\Substancesheets\Aluminiumkaliumsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Aluminiumoxide geactiveerd.pdf" />
-    <None Include="Resources\Substancesheets\Aluminiumoxide niet vezelachtig.pdf" />
-    <None Include="Resources\Substancesheets\Aluminiumoxide vezels.pdf" />
-    <None Include="Resources\Substancesheets\Aluminiumsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniak 25 procent.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniak 25-33 procent.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumacetaat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumbicarbonaat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumchloride.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumdiwaterstfosfaat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumijzer%28II%29sulfaat hexahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniummolybdaat tetrahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumnitraat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumoxalaat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumperoxodisulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumthiocyanaat.pdf" />
-    <None Include="Resources\Substancesheets\Ammoniumthiosulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Antimoontrichloride.pdf" />
-    <None Include="Resources\Substancesheets\Ascorbinezuur.pdf" />
-    <None Include="Resources\Substancesheets\Azijnzuur 80-90 procent.pdf" />
-    <None Include="Resources\Substancesheets\Azijnzuur.pdf" />
-    <None Include="Resources\Substancesheets\Bariumcarbonaat.pdf" />
-    <None Include="Resources\Substancesheets\Bariumchloride dihydraat.pdf" />
-    <None Include="Resources\Substancesheets\Bariumchloride.pdf" />
-    <None Include="Resources\Substancesheets\Bariumhydroxide octahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Bariumhydroxide.pdf" />
-    <None Include="Resources\Substancesheets\Bariumnitraat.pdf" />
-    <None Include="Resources\Substancesheets\Bariumperoxide.pdf" />
-    <None Include="Resources\Substancesheets\Bariumsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Bariumsulfiet.pdf" />
-    <None Include="Resources\Substancesheets\Barnsteenzuur.pdf" />
-    <None Include="Resources\Substancesheets\Benzine.pdf" />
-    <None Include="Resources\Substancesheets\Benzo&amp;euml%3bzuur.pdf" />
-    <None Include="Resources\Substancesheets\Boorzuur.pdf" />
-    <None Include="Resources\Substancesheets\Boterzuur.pdf" />
-    <None Include="Resources\Substancesheets\Brandgel.pdf" />
-    <None Include="Resources\Substancesheets\Broomcresolgroen.pdf" />
-    <None Include="Resources\Substancesheets\Broomthymolblauw.pdf" />
-    <None Include="Resources\Substancesheets\Butan-1-ol.pdf" />
-    <None Include="Resources\Substancesheets\Butan-2-ol.pdf" />
-    <None Include="Resources\Substancesheets\Calcium niet pyrofoor.pdf" />
-    <None Include="Resources\Substancesheets\Calciumbromide.pdf" />
-    <None Include="Resources\Substancesheets\Calciumcarbide.pdf" />
-    <None Include="Resources\Substancesheets\Calciumcarbonaat.pdf" />
-    <None Include="Resources\Substancesheets\Calciumchloride dihydraat&amp;nbsp%3b.pdf" />
-    <None Include="Resources\Substancesheets\Calciumchloride.pdf" />
-    <None Include="Resources\Substancesheets\Calciumdiwaterstoffosfaat.pdf" />
-    <None Include="Resources\Substancesheets\Calciumfluoride.pdf" />
-    <None Include="Resources\Substancesheets\Calciumhydroxide.pdf" />
-    <None Include="Resources\Substancesheets\Calciumnitraat.pdf" />
-    <None Include="Resources\Substancesheets\Calciumoxide.pdf" />
-    <None Include="Resources\Substancesheets\Calciumsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Calciumwaterstoffosfaat.pdf" />
-    <None Include="Resources\Substancesheets\Cetylalcohol.pdf" />
-    <None Include="Resources\Substancesheets\Chloroform.pdf" />
-    <None Include="Resources\Substancesheets\Citroenzuur.pdf" />
-    <None Include="Resources\Substancesheets\Cyclohexaan.pdf" />
-    <None Include="Resources\Substancesheets\Dieselolie.pdf" />
-    <None Include="Resources\Substancesheets\Diethylether.pdf" />
-    <None Include="Resources\Substancesheets\EDTA dinatriumethyleendiaminetetraacetaat.pdf" />
-    <None Include="Resources\Substancesheets\Ethaandiol.pdf" />
-    <None Include="Resources\Substancesheets\Ethanol.pdf" />
-    <None Include="Resources\Substancesheets\Ethyleendiaminetetraazijnzuur.pdf" />
-    <None Include="Resources\Substancesheets\Ethyleenglycol.pdf" />
-    <None Include="Resources\Substancesheets\Fehling%27s reagens A.pdf" />
-    <None Include="Resources\Substancesheets\Fehling%27s reagens B.pdf" />
-    <None Include="Resources\Substancesheets\Fenol.pdf" />
-    <None Include="Resources\Substancesheets\Fenolftale&amp;iuml%3bne.pdf" />
-    <None Include="Resources\Substancesheets\Fenolrood.pdf" />
-    <None Include="Resources\Substancesheets\Fluoresce&amp;iuml%3bne tetrabromo-.pdf" />
-    <None Include="Resources\Substancesheets\Fluoresce&amp;iuml%3bne.pdf" />
-    <None Include="Resources\Substancesheets\Fosfor rood.pdf" />
-    <None Include="Resources\Substancesheets\fosfor%28V%29oxide.pdf" />
-    <None Include="Resources\Substancesheets\fructose.pdf" />
-    <None Include="Resources\Substancesheets\Ftaalzuur.pdf" />
-    <None Include="Resources\Substancesheets\ftaalzuuranhydride.pdf" />
-    <None Include="Resources\Substancesheets\fuchsinezuur.pdf" />
-    <None Include="Resources\Substancesheets\glucose.pdf" />
-    <None Include="Resources\Substancesheets\Glycerol.pdf" />
-    <None Include="Resources\Substancesheets\hexaan.pdf" />
-    <None Include="Resources\Substancesheets\Hydrochinon.pdf" />
-    <None Include="Resources\Substancesheets\ijzer poeder.pdf" />
-    <None Include="Resources\Substancesheets\Ijzer vast.pdf" />
-    <None Include="Resources\Substancesheets\ijzer%28II%29chloride.pdf" />
-    <None Include="Resources\Substancesheets\Ijzer%28II%29sulfaat heptahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Ijzer%28II%29sulfide.pdf" />
-    <None Include="Resources\Substancesheets\ijzer%28II, III%29oxide.pdf" />
-    <None Include="Resources\Substancesheets\Ijzer%28III%29chloride hexahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Ijzer%28III%29chloride.pdf" />
-    <None Include="Resources\Substancesheets\ijzer%28III%29nitraat.pdf" />
-    <None Include="Resources\Substancesheets\Ijzer%28III%29oxide.pdf" />
-    <None Include="Resources\Substancesheets\Jodium.pdf" />
-    <None Include="Resources\Substancesheets\kalium.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumacetaat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumbromaat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumbromide.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumcarbonaat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumchloraat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumchloride.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumdiwaterstoffosfaat.pdf" />
-    <None Include="Resources\Substancesheets\kaliumhexacyaanferraat%28II%29 trihydraat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumhexacyanoferraat %28III%29.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumhydroxide.pdf" />
-    <None Include="Resources\Substancesheets\kaliumjodaat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumjodide.pdf" />
-    <None Include="Resources\Substancesheets\kaliumnatriumtartraat tetrahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumnitraat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumpermanganaat.pdf" />
-    <None Include="Resources\Substancesheets\kaliumperoxodisulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Kaliumsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\kaliumthiocyanaat.pdf" />
-    <None Include="Resources\Substancesheets\kaliumwaterstofcarbonaat.pdf" />
-    <None Include="Resources\Substancesheets\Kerosine.pdf" />
-    <None Include="Resources\Substancesheets\kiezelgoer.pdf" />
-    <None Include="Resources\Substancesheets\Kobalt%28II%29chloride hexahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Kobalt%28II%29chloride&amp;nbsp%3b.pdf" />
-    <None Include="Resources\Substancesheets\kobalt%28II%29nitraat hexahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Koolstof %28actieve kool%29.pdf" />
-    <None Include="Resources\Substancesheets\koper%28I%29chloride.pdf" />
-    <None Include="Resources\Substancesheets\koper%28I%29oxide.pdf" />
-    <None Include="Resources\Substancesheets\Koper%28II%29carbonaat.pdf" />
-    <None Include="Resources\Substancesheets\Koper%28II%29chloride.pdf" />
-    <None Include="Resources\Substancesheets\koper%28II%29nitraat hemipentahydraat.pdf" />
-    <None Include="Resources\Substancesheets\koper%28II%29nitraat hexahydraat.pdf" />
-    <None Include="Resources\Substancesheets\koper%28II%29nitraat trihydraat.pdf" />
-    <None Include="Resources\Substancesheets\Koper%28II%29oxide.pdf" />
-    <None Include="Resources\Substancesheets\Koper%28II%29sulfaat pentahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Koper%28II%29sulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Kwik%28II%29chloride.pdf" />
-    <None Include="Resources\Substancesheets\Kwik%28II%29oxide.pdf" />
-    <None Include="Resources\Substancesheets\lithium.pdf" />
-    <None Include="Resources\Substancesheets\lithiumchloride.pdf" />
-    <None Include="Resources\Substancesheets\Magnesium korrels draden.pdf" />
-    <None Include="Resources\Substancesheets\Magnesium poeder pyrofoor.pdf" />
-    <None Include="Resources\Substancesheets\magnesiumcarbonaat.pdf" />
-    <None Include="Resources\Substancesheets\Magnesiumchloride hexahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Magnesiumchloride.pdf" />
-    <None Include="Resources\Substancesheets\magnesiumnitraat.pdf" />
-    <None Include="Resources\Substancesheets\Magnesiumoxide.pdf" />
-    <None Include="Resources\Substancesheets\Magnesiumsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\mangaan vast poeder.pdf" />
-    <None Include="Resources\Substancesheets\Mangaan%28II%29chloride tetrahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Mangaan%28II%29oxide.pdf" />
-    <None Include="Resources\Substancesheets\mangaan%28II%29sulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Mangaan%28IV%29oxide.pdf" />
-    <None Include="Resources\Substancesheets\Methanol.pdf" />
-    <None Include="Resources\Substancesheets\Methyleenblauw.pdf" />
-    <None Include="Resources\Substancesheets\methylgeel.pdf" />
-    <None Include="Resources\Substancesheets\methylisobutylketon.pdf" />
-    <None Include="Resources\Substancesheets\Methyloranje.pdf" />
-    <None Include="Resources\Substancesheets\methylrood.pdf" />
-    <None Include="Resources\Substancesheets\Mierenzuur.pdf" />
-    <None Include="Resources\Substancesheets\mohr%27s zout.pdf" />
-    <None Include="Resources\Substancesheets\naftaleen.pdf" />
-    <None Include="Resources\Substancesheets\naftol.pdf" />
-    <None Include="Resources\Substancesheets\Natrium.pdf" />
-    <None Include="Resources\Substancesheets\natriumacetaat.pdf" />
-    <None Include="Resources\Substancesheets\Natriumbromide.pdf" />
-    <None Include="Resources\Substancesheets\Natriumcarbonaat decahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Natriumcarbonaat.pdf" />
-    <None Include="Resources\Substancesheets\Natriumchloraat.pdf" />
-    <None Include="Resources\Substancesheets\Natriumchloride.pdf" />
-    <None Include="Resources\Substancesheets\natriumdithioniet.pdf" />
-    <None Include="Resources\Substancesheets\natriumdiwaterstoffosfaat monohydraat.pdf" />
-    <None Include="Resources\Substancesheets\natriumdiwaterstoffosfaat.pdf" />
-    <None Include="Resources\Substancesheets\natriumfluoride.pdf" />
-    <None Include="Resources\Substancesheets\natriumformiaat.pdf" />
-    <None Include="Resources\Substancesheets\natriumfosfaat dodecahydraat.pdf" />
-    <None Include="Resources\Substancesheets\natriumfosfaat.pdf" />
-    <None Include="Resources\Substancesheets\natriumhydroxide 0,1M oplossing.pdf" />
-    <None Include="Resources\Substancesheets\Natriumhydroxide 24 procent.pdf" />
-    <None Include="Resources\Substancesheets\Natriumhydroxide 33 procent.pdf" />
-    <None Include="Resources\Substancesheets\Natriumhydroxide 50 procent.pdf" />
-    <None Include="Resources\Substancesheets\Natriumhydroxide vast.pdf" />
-    <None Include="Resources\Substancesheets\Natriumnitraat.pdf" />
-    <None Include="Resources\Substancesheets\Natriumnitriet.pdf" />
-    <None Include="Resources\Substancesheets\Natriumperoxide.pdf" />
-    <None Include="Resources\Substancesheets\natriumpyrosulfiet.pdf" />
-    <None Include="Resources\Substancesheets\natriumsilicaat 2.00.pdf" />
-    <None Include="Resources\Substancesheets\natriumsilicaat 3.27.pdf" />
-    <None Include="Resources\Substancesheets\natriumsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\natriumsulfide nonahydraat.pdf" />
-    <None Include="Resources\Substancesheets\natriumsulfide.pdf" />
-    <None Include="Resources\Substancesheets\Natriumtetraboraat.pdf" />
-    <None Include="Resources\Substancesheets\Natriumthiosulfaat pentahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Natriumthiosulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Natriumwaterstofcarbonaat.pdf" />
-    <None Include="Resources\Substancesheets\natriumwaterstofsulfaat.pdf" />
-    <None Include="Resources\Substancesheets\neutraalrood.pdf" />
-    <None Include="Resources\Substancesheets\Nikkel katalysator droog.pdf" />
-    <None Include="Resources\Substancesheets\Nikkel poeder.pdf" />
-    <None Include="Resources\Substancesheets\Nikkel%28II%29sulfaat.pdf" />
-    <None Include="Resources\Substancesheets\oliezuur.pdf" />
-    <None Include="Resources\Substancesheets\Oxaalzuur dihydraat.pdf" />
-    <None Include="Resources\Substancesheets\paraffine, was.pdf" />
-    <None Include="Resources\Substancesheets\paraffine, zuivere petroleumoli&amp;euml%3bn.pdf" />
-    <None Include="Resources\Substancesheets\pentaan.pdf" />
-    <None Include="Resources\Substancesheets\pentan-1-ol.pdf" />
-    <None Include="Resources\Substancesheets\pentan-2-ol.pdf" />
-    <None Include="Resources\Substancesheets\Petroleum.pdf" />
-    <None Include="Resources\Substancesheets\petroleumether.pdf" />
-    <None Include="Resources\Substancesheets\resorcinol.pdf" />
-    <None Include="Resources\Substancesheets\saccharose.pdf" />
-    <None Include="Resources\Substancesheets\salicylzuur.pdf" />
-    <None Include="Resources\Substancesheets\Salpeterzuur 20-65 procent.pdf" />
-    <None Include="Resources\Substancesheets\Salpeterzuut 70 procent.pdf" />
-    <None Include="Resources\Substancesheets\siliciumdioxide.pdf" />
-    <None Include="Resources\Substancesheets\Tetrabromofluoresce&amp;iuml%3bne.pdf" />
-    <None Include="Resources\Substancesheets\tetrachloorethyleen.pdf" />
-    <None Include="Resources\Substancesheets\thioureum.pdf" />
-    <None Include="Resources\Substancesheets\thymolblauw.pdf" />
-    <None Include="Resources\Substancesheets\thymolftaleine.pdf" />
-    <None Include="Resources\Substancesheets\Tin%28II%29chloride dihydraat.pdf" />
-    <None Include="Resources\Substancesheets\Tin%28IV%29chloride.pdf" />
-    <None Include="Resources\Substancesheets\tin, poeder.pdf" />
-    <None Include="Resources\Substancesheets\tolueen.pdf" />
-    <None Include="Resources\Substancesheets\ureum.pdf" />
-    <None Include="Resources\Substancesheets\Waterstofchloride 0,1M oplossing.pdf" />
-    <None Include="Resources\Substancesheets\Waterstofchloride 10-25 procent.pdf" />
-    <None Include="Resources\Substancesheets\waterstofchloride, 30-34procent.pdf" />
-    <None Include="Resources\Substancesheets\Waterstofperoxide 20-35 procent.pdf" />
-    <None Include="Resources\Substancesheets\Waterstofperoxide 35 procent.pdf" />
-    <None Include="Resources\Substancesheets\Waterstofperoxide 35-50 procent.pdf" />
-    <None Include="Resources\Substancesheets\Waterstofperoxide 50-60 procent.pdf" />
-    <None Include="Resources\Substancesheets\Waterstofperoxide 8-20 procent.pdf" />
-    <None Include="Resources\Substancesheets\White spirit.pdf" />
-    <None Include="Resources\Substancesheets\wijnsteenzuur.pdf" />
-    <None Include="Resources\Substancesheets\Zetmeel oplosbaar.pdf" />
-    <None Include="Resources\Substancesheets\Zetmeel.pdf" />
-    <None Include="Resources\Substancesheets\Zilvernitraat.pdf" />
-    <None Include="Resources\Substancesheets\Zink, poeder, niet pyrofoor.pdf" />
-    <None Include="Resources\Substancesheets\Zink, poeder, waterreactief.pdf" />
-    <None Include="Resources\Substancesheets\Zink, vast.pdf" />
-    <None Include="Resources\Substancesheets\Zinkchloride.pdf" />
-    <None Include="Resources\Substancesheets\Zinknitraat.pdf" />
-    <None Include="Resources\Substancesheets\Zinkoxide.pdf" />
-    <None Include="Resources\Substancesheets\zinksulfaat heptahydraat.pdf" />
-    <None Include="Resources\Substancesheets\Zinksulfaat.pdf" />
-    <None Include="Resources\Substancesheets\Zoutzuur 0,1M oplossing.pdf" />
-    <None Include="Resources\Substancesheets\zoutzuur, 10-25 procent.pdf" />
-    <None Include="Resources\Substancesheets\zoutzuur, 30-34 procent.pdf" />
-    <None Include="Resources\Substancesheets\Zwavel, vast.pdf" />
-    <None Include="Resources\Substancesheets\Zwavelzuur 98 procent.pdf" />
-    <None Include="Resources\Substancesheets\Zwavelzuur meer dan 51 procent.pdf" />
-    <None Include="Resources\Substancesheets\Zwavelzuur.pdf" />
+    <None Include="Resources\Substancesheets\1-hexadecanol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\1-propanol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Acetaldehyde.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Acetofenon.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aceton.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\alizarine.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aluminium poeder niet pyrofoor.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aluminium poeder pyrofoor.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aluminiumchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aluminiumkaliumsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aluminiumoxide geactiveerd.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aluminiumoxide niet vezelachtig.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aluminiumoxide vezels.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Aluminiumsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniak 25 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniak 25-33 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumacetaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumbicarbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumdiwaterstfosfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumijzer%28II%29sulfaat hexahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniummolybdaat tetrahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumnitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumoxalaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumperoxodisulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumthiocyanaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ammoniumthiosulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Antimoontrichloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ascorbinezuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Azijnzuur 80-90 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Azijnzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumcarbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumchloride dihydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumhydroxide octahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumhydroxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumnitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumperoxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Bariumsulfiet.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Barnsteenzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Benzine.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Benzo&amp;euml%3bzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Boorzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Boterzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Brandgel.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Broomcresolgroen.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Broomthymolblauw.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Butan-1-ol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Butan-2-ol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calcium niet pyrofoor.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumbromide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumcarbide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumcarbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumchloride dihydraat&amp;nbsp%3b.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumdiwaterstoffosfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumfluoride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumhydroxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumnitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumoxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Calciumwaterstoffosfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Cetylalcohol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Chloroform.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Citroenzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Cyclohexaan.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Dieselolie.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Diethylether.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\EDTA dinatriumethyleendiaminetetraacetaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ethaandiol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ethanol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ethyleendiaminetetraazijnzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ethyleenglycol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Fehling%27s reagens A.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Fehling%27s reagens B.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Fenol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Fenolftale&amp;iuml%3bne.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Fenolrood.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Fluoresce&amp;iuml%3bne tetrabromo-.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Fluoresce&amp;iuml%3bne.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Fosfor rood.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\fosfor%28V%29oxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\fructose.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ftaalzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\ftaalzuuranhydride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\fuchsinezuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\glucose.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Glycerol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\hexaan.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Hydrochinon.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\ijzer poeder.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ijzer vast.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\ijzer%28II%29chloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ijzer%28II%29sulfaat heptahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ijzer%28II%29sulfide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\ijzer%28II, III%29oxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ijzer%28III%29chloride hexahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ijzer%28III%29chloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\ijzer%28III%29nitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Ijzer%28III%29oxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Jodium.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kalium.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumacetaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumbromaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumbromide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumcarbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumchloraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumdiwaterstoffosfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kaliumhexacyaanferraat%28II%29 trihydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumhexacyanoferraat %28III%29.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumhydroxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kaliumjodaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumjodide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kaliumnatriumtartraat tetrahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumnitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumpermanganaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kaliumperoxodisulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kaliumsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kaliumthiocyanaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kaliumwaterstofcarbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kerosine.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kiezelgoer.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kobalt%28II%29chloride hexahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kobalt%28II%29chloride&amp;nbsp%3b.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\kobalt%28II%29nitraat hexahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Koolstof %28actieve kool%29.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\koper%28I%29chloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\koper%28I%29oxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Koper%28II%29carbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Koper%28II%29chloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\koper%28II%29nitraat hemipentahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\koper%28II%29nitraat hexahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\koper%28II%29nitraat trihydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Koper%28II%29oxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Koper%28II%29sulfaat pentahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Koper%28II%29sulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kwik%28II%29chloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Kwik%28II%29oxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\lithium.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\lithiumchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Magnesium korrels draden.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Magnesium poeder pyrofoor.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\magnesiumcarbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Magnesiumchloride hexahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Magnesiumchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\magnesiumnitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Magnesiumoxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Magnesiumsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\mangaan vast poeder.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Mangaan%28II%29chloride tetrahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Mangaan%28II%29oxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\mangaan%28II%29sulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Mangaan%28IV%29oxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Methanol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Methyleenblauw.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\methylgeel.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\methylisobutylketon.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Methyloranje.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\methylrood.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Mierenzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\mohr%27s zout.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\naftaleen.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\naftol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natrium.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumacetaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumbromide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumcarbonaat decahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumcarbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumchloraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumdithioniet.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumdiwaterstoffosfaat monohydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumdiwaterstoffosfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumfluoride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumformiaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumfosfaat dodecahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumfosfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumhydroxide 0,1M oplossing.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumhydroxide 24 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumhydroxide 33 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumhydroxide 50 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumhydroxide vast.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumnitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumnitriet.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumperoxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumpyrosulfiet.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumsilicaat 2.00.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumsilicaat 3.27.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumsulfide nonahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumsulfide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumtetraboraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumthiosulfaat pentahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumthiosulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Natriumwaterstofcarbonaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\natriumwaterstofsulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\neutraalrood.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Nikkel katalysator droog.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Nikkel poeder.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Nikkel%28II%29sulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\oliezuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Oxaalzuur dihydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\paraffine, was.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\paraffine, zuivere petroleumoli&amp;euml%3bn.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\pentaan.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\pentan-1-ol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\pentan-2-ol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Petroleum.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\petroleumether.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\resorcinol.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\saccharose.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\salicylzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Salpeterzuur 20-65 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Salpeterzuut 70 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\siliciumdioxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Tetrabromofluoresce&amp;iuml%3bne.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\tetrachloorethyleen.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\thioureum.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\thymolblauw.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\thymolftaleine.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Tin%28II%29chloride dihydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Tin%28IV%29chloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\tin, poeder.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\tolueen.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\ureum.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Waterstofchloride 0,1M oplossing.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Waterstofchloride 10-25 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\waterstofchloride, 30-34procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Waterstofperoxide 20-35 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Waterstofperoxide 35 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Waterstofperoxide 35-50 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Waterstofperoxide 50-60 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Waterstofperoxide 8-20 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\White spirit.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\wijnsteenzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zetmeel oplosbaar.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zetmeel.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zilvernitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zink, poeder, niet pyrofoor.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zink, poeder, waterreactief.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zink, vast.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zinkchloride.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zinknitraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zinkoxide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\zinksulfaat heptahydraat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zinksulfaat.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zoutzuur 0,1M oplossing.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\zoutzuur, 10-25 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\zoutzuur, 30-34 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zwavel, vast.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zwavelzuur 98 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zwavelzuur meer dan 51 procent.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Substancesheets\Zwavelzuur.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

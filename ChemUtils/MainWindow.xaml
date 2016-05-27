@@ -42,26 +42,67 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </metro:MetroWindow.Resources>
-    <metro:MetroAnimatedTabControl SelectedIndex="2">
+    <metro:MetroWindow.RightWindowCommands>
+        <metro:WindowCommands>
+            <Button Tag="0" Click="SwitchTab">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Uniform" Visual="{StaticResource fa_book}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Text="WIK" Margin="4,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+            <Button Tag="1" Click="SwitchTab">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Uniform" Visual="{StaticResource fa_flask}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Text="Oplossingen" Margin="4,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+            <Button Tag="2" Click="SwitchTab">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Uniform" Visual="{StaticResource fa_bookmark}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Text="Elementen" Margin="4,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+        </metro:WindowCommands>
+    </metro:MetroWindow.RightWindowCommands>
+    <metro:MetroAnimatedTabControl SelectedIndex="{Binding SelectedTab, Mode=OneWay}">
         <metro:MetroTabItem>
             <!-- WIKs -->
+            <StackPanel Orientation="Vertical" Margin="10,0,10,10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Werkplekinstructiekaarten" FontSize="18" FontWeight="Bold" Width="1056" />
+                    <Button Style="{DynamicResource MaterialDesignRaisedAccentButton}" Margin="0,0,0,2" Width="120" Click="SaveSafetySheets">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                                <Rectangle.OpacityMask>
+                                    <VisualBrush Stretch="Uniform" Visual="{StaticResource fa_save}" />
+                                </Rectangle.OpacityMask>
+                            </Rectangle>
+                            <TextBlock Text="Save" Margin="4,0,0,0" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <ListView Name="SafetysheetsListView" Width="1200" Height="600" />
+            </StackPanel>
         </metro:MetroTabItem>
         <metro:MetroTabItem>
             <!-- oplossingen -->
         </metro:MetroTabItem>
         <metro:MetroTabItem>
             <!-- elements index -->
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <TextBox Grid.Column="0" Grid.Row="0" Width="360" material:TextFieldAssist.Hint="Search..." Margin="16" TextChanged="FilterQueryChanged" />
-                <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1" Margin="16,16,16,0">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" Margin="5,5,0,0">
                     <Label Content="#Atomic" Width="80"   />
                     <Label Content="Name" Width="120"   />
                     <Label Content="Symbol" Width="70"  />
@@ -71,16 +112,16 @@
                     <Label Content="Density" Width="100"  />
                     <Label Content="Abundance" Width="100"  />
                     <Label Content="Discovery" Width="100"  />
-                    <Label Content="Electronconfiguration" Width="120"  />
-                    <Label Content="Energy" Width="100"  />
+                    <Label Content="Electronconfiguration" Width="125"  />
+                    <Label Content="Energy" Width="95"  />
                 </StackPanel>
-                <ListView Grid.Column="0" Grid.Row="2" Margin="16,0,16,16" ItemsSource="{Binding Atoms, Mode=OneTime}" SelectedItem="{Binding SelectedAtom, Mode=OneWayToSource}">
+                <ListView Margin="5,0,0,0" ItemsSource="{Binding Atoms, Mode=OneTime}" VerticalContentAlignment="Stretch" Height="535">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
                                 <StackPanel.ContextMenu>
                                     <ContextMenu>
-                                        <Label Tag="{Binding}" Content="Open information card" MouseLeftButtonDown="OpenInformationCard" />
+                                        <Label Tag="{Binding}" Content="Open information card" />
                                     </ContextMenu>
                                 </StackPanel.ContextMenu>
                                 <Label Content="{Binding AtomicNumber, Mode=OneTime}" Width="80" HorizontalContentAlignment="Right" />
@@ -92,13 +133,13 @@
                                 <Label Content="{Binding Density, Mode=OneTime}" Width="100"  />
                                 <Label Content="{Binding Abundance, Mode=OneTime}" Width="100"  />
                                 <Label Content="{Binding Discovery, Mode=OneTime}" Width="100" />
-                                <Label Content="{Binding ElectronConfiguration, Mode=OneTime}" Width="120" />
-                                <Label Content="{Binding Energy, Mode=OneTime}" Width="100" />
+                                <Label Content="{Binding ElectronConfiguration, Mode=OneTime}" Width="125" />
+                                <Label Content="{Binding Energy, Mode=OneTime}" Width="95" />
                             </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-            </Grid>
+            </StackPanel>
         </metro:MetroTabItem>
     </metro:MetroAnimatedTabControl>
 </metro:MetroWindow>
