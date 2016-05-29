@@ -10,6 +10,8 @@ using ChemUtils.Models;
 using MahApps.Metro.Controls;
 using Microsoft.Win32;
 using Newtonsoft.Json;
+using PdfSharp.Pdf;
+using PdfSharp.Pdf.IO;
 
 namespace ChemUtils
 {
@@ -63,7 +65,7 @@ namespace ChemUtils
 
         private void SaveSafetySheets(object sender, RoutedEventArgs e)
         {
-            SaveFileDialog dialog = new SaveFileDialog
+            var dialog = new SaveFileDialog
             {
                 OverwritePrompt = true,
                 Title = "Save file",
@@ -72,18 +74,29 @@ namespace ChemUtils
             };
             dialog.ShowDialog();
 
-            var stream = dialog.OpenFile();
-            // TODO: combine pdfs and write dem data to stream
+            using (Stream stream = dialog.OpenFile())
+            {
+                using (PdfDocument outpdf = new PdfDocument())
+                {
+                    foreach (string selectedSafetysheet in this.selectedSafetysheets)
+                    {
+                        using (PdfDocument safetysheet = PdfReader.Open(selectedSafetysheet, PdfDocumentOpenMode.Import))
+                        {
+                            for (int i = 0; i < safetysheet.PageCount; i++)
+                            {
+                                outpdf.AddPage(safetysheet.Pages[i]);
+                            }
+                        }
+                    }
+                    outpdf.Save(stream);
+                }
+            }
         }
 
         private void SwitchTab(object sender, RoutedEventArgs e) => this.SelectedTab = int.Parse((string)((Button)sender).Tag);
 
         public event PropertyChangedEventHandler PropertyChanged;
-
         [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null) => this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }

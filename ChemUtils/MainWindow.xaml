@@ -58,16 +58,6 @@
                 <StackPanel Orientation="Horizontal">
                     <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
                         <Rectangle.OpacityMask>
-                            <VisualBrush Stretch="Uniform" Visual="{StaticResource fa_flask}" />
-                        </Rectangle.OpacityMask>
-                    </Rectangle>
-                    <TextBlock Text="Oplossingen" Margin="4,0,0,0" VerticalAlignment="Center" />
-                </StackPanel>
-            </Button>
-            <Button Tag="2" Click="SwitchTab">
-                <StackPanel Orientation="Horizontal">
-                    <Rectangle Width="20" Height="20" Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
-                        <Rectangle.OpacityMask>
                             <VisualBrush Stretch="Uniform" Visual="{StaticResource fa_bookmark}" />
                         </Rectangle.OpacityMask>
                     </Rectangle>
@@ -95,9 +85,6 @@
                 </StackPanel>
                 <ListView Name="SafetysheetsListView" Width="1200" Height="600" />
             </StackPanel>
-        </metro:MetroTabItem>
-        <metro:MetroTabItem>
-            <!-- oplossingen -->
         </metro:MetroTabItem>
         <metro:MetroTabItem>
             <!-- elements index -->
