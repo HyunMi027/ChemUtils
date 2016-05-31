@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
@@ -27,6 +28,8 @@ namespace ChemUtils
                 this.OnPropertyChanged();
             }
         }
+
+        public string FilterQuery => this.FilterQueryTextBox.Text;
 
         public List<Atom> Atoms { get; } = JsonConvert.DeserializeObject<List<Atom>>(File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Atoms.json")));
 
@@ -92,6 +95,8 @@ namespace ChemUtils
                 }
             }
         }
+
+        private void FilterQueryChangedCallback(object sender, TextChangedEventArgs e) => this.SafetysheetsListView.Items.Filter = o => this.FilterQuery.Length <= 2 || ((string)((CheckBox)o).Content).Contains(this.FilterQuery);
 
         private void SwitchTab(object sender, RoutedEventArgs e) => this.SelectedTab = int.Parse((string)((Button)sender).Tag);
 
